@@ -16,8 +16,6 @@
 
 #else
 
-
-
 - (id)addObject:(id)anObject;
 
 - (id)insertObject:(id)anObject atIndex:(NSUInteger)index;
@@ -33,49 +31,19 @@
 
 #endif
 
-
-
-
 - (id)objectAtIndex_safe_Str:(NSUInteger)index;
 - (id)objectAtIndex_safe_int:(NSUInteger)index;
 
 - (id)objectAtIndex_NXB:(NSUInteger)index;
 
 
-
-/**
- *  Create a reversed array from self
- *
- *  @return Return the reversed array
- */
 - (NSArray *)reversedArray;
-
-/**
- *  Convert self to JSON as NSString
- *
- *  @return Return the JSON as NSString or nil if error while parsing
- */
 
 - (NSString *)arrayToJson;
 
-/**
- *  Create a reversed array from the given array
- *
- *  @param array The array to be converted
- *
- *  @return Return the reversed array
- */
-
 + (NSString *)arrayToJson:(NSArray *)array;
 
-
-/**
- *  Convert the given array to JSON as NSString
- *
- *  @param array The array to be reversed
- *
- *  @return Return the JSON as NSString or nil if error while parsing
- */
-
 + (NSArray *)reversedArray:(NSArray *)array;
+
+
 @end

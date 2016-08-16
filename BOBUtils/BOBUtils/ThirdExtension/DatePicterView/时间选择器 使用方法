@@ -1,0 +1,26 @@
+
+#import "YMDHMDatePickerView.h"
+
+//代理
+<YMDHMDatePickerViewDelegate>
+
+
+@property(nonatomic, strong) YMDHMDatePickerView *datePicterView;
+
+
+#pragma mark - 时间选择器
+- (YMDHMDatePickerView *)datePicterView{
+    if (!_datePicterView) {
+        _datePicterView=[[YMDHMDatePickerView alloc]init];
+        [_datePicterView drawPickerView];
+        _datePicterView.delegate = self;
+        [self.view addSubview:_datePicterView];
+
+    }
+    return _datePicterView;
+}
+
+//调用方法
+self.datePicterView.tag = 102;
+[self.datePicterView setupShow];
+[self.datePicterView setupMsgLabel:@"时间选择器标题"];

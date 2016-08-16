@@ -41,6 +41,13 @@
 		F5F72DA71D61AFDF008C0D62 /* UIWindow+BOBs.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DA61D61AFDE008C0D62 /* UIWindow+BOBs.m */; };
 		F5F72DAA1D61B239008C0D62 /* PasswordBOBs.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DA91D61B239008C0D62 /* PasswordBOBs.m */; };
 		F5F72DAD1D61B29A008C0D62 /* SystemSoundBOBs.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DAC1D61B29A008C0D62 /* SystemSoundBOBs.m */; };
+		F5F72DB21D61C925008C0D62 /* UILabel+HYBAttributedCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DB11D61C925008C0D62 /* UILabel+HYBAttributedCategory.m */; };
+		F5F72DB61D61CC70008C0D62 /* HMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DB51D61CC70008C0D62 /* HMTextView.m */; };
+		F5F72DB91D61CD03008C0D62 /* NSAttributedString+BOBs.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DB81D61CD03008C0D62 /* NSAttributedString+BOBs.m */; };
+		F5F72DC11D62AA5F008C0D62 /* DatePickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DBC1D62AA5F008C0D62 /* DatePickerModel.m */; };
+		F5F72DC21D62AA5F008C0D62 /* PickerTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DBE1D62AA5F008C0D62 /* PickerTabbarView.m */; };
+		F5F72DC31D62AA5F008C0D62 /* YMDHMDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DC01D62AA5F008C0D62 /* YMDHMDatePickerView.m */; };
+		F5F72DC51D62ABDC008C0D62 /* 时间选择器 使用方法 in Resources */ = {isa = PBXBuildFile; fileRef = F5F72DC41D62ABDC008C0D62 /* 时间选择器 使用方法 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +137,19 @@
 		F5F72DA91D61B239008C0D62 /* PasswordBOBs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordBOBs.m; sourceTree = "<group>"; };
 		F5F72DAB1D61B29A008C0D62 /* SystemSoundBOBs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSoundBOBs.h; sourceTree = "<group>"; };
 		F5F72DAC1D61B29A008C0D62 /* SystemSoundBOBs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemSoundBOBs.m; sourceTree = "<group>"; };
+		F5F72DB01D61C925008C0D62 /* UILabel+HYBAttributedCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HYBAttributedCategory.h"; sourceTree = "<group>"; };
+		F5F72DB11D61C925008C0D62 /* UILabel+HYBAttributedCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HYBAttributedCategory.m"; sourceTree = "<group>"; };
+		F5F72DB41D61CC70008C0D62 /* HMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTextView.h; sourceTree = "<group>"; };
+		F5F72DB51D61CC70008C0D62 /* HMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTextView.m; sourceTree = "<group>"; };
+		F5F72DB71D61CD03008C0D62 /* NSAttributedString+BOBs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+BOBs.h"; sourceTree = "<group>"; };
+		F5F72DB81D61CD03008C0D62 /* NSAttributedString+BOBs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+BOBs.m"; sourceTree = "<group>"; };
+		F5F72DBB1D62AA5F008C0D62 /* DatePickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerModel.h; sourceTree = "<group>"; };
+		F5F72DBC1D62AA5F008C0D62 /* DatePickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerModel.m; sourceTree = "<group>"; };
+		F5F72DBD1D62AA5F008C0D62 /* PickerTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerTabbarView.h; sourceTree = "<group>"; };
+		F5F72DBE1D62AA5F008C0D62 /* PickerTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerTabbarView.m; sourceTree = "<group>"; };
+		F5F72DBF1D62AA5F008C0D62 /* YMDHMDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDHMDatePickerView.h; sourceTree = "<group>"; };
+		F5F72DC01D62AA5F008C0D62 /* YMDHMDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDHMDatePickerView.m; sourceTree = "<group>"; };
+		F5F72DC41D62ABDC008C0D62 /* 时间选择器 使用方法 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "时间选择器 使用方法"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				F5F72D7D1D61A510008C0D62 /* BOBsKit.h */,
+				F5F72DAE1D61C914008C0D62 /* ThirdExtension */,
 				F5F72D731D61A227008C0D62 /* BOBFdKit */,
 				F5F72D601D61A1B0008C0D62 /* BOBUIKitCategory */,
 				F5F72D491D619C82008C0D62 /* BOBUtils */,
@@ -292,8 +313,52 @@
 				F5F72D8B1D61A70B008C0D62 /* NSDictionary+BOBs.m */,
 				F5F72D8D1D61A744008C0D62 /* NSMutableDictionary+BOBs.h */,
 				F5F72D8E1D61A744008C0D62 /* NSMutableDictionary+BOBs.m */,
+				F5F72DB71D61CD03008C0D62 /* NSAttributedString+BOBs.h */,
+				F5F72DB81D61CD03008C0D62 /* NSAttributedString+BOBs.m */,
 			);
 			path = BOBFdKit;
+			sourceTree = "<group>";
+		};
+		F5F72DAE1D61C914008C0D62 /* ThirdExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F5F72DBA1D62AA5F008C0D62 /* DatePicterView */,
+				F5F72DB31D61CC70008C0D62 /* PlacehoderTextView */,
+				F5F72DAF1D61C925008C0D62 /* HYBAttributedLabelCategory */,
+			);
+			path = ThirdExtension;
+			sourceTree = "<group>";
+		};
+		F5F72DAF1D61C925008C0D62 /* HYBAttributedLabelCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F5F72DB01D61C925008C0D62 /* UILabel+HYBAttributedCategory.h */,
+				F5F72DB11D61C925008C0D62 /* UILabel+HYBAttributedCategory.m */,
+			);
+			path = HYBAttributedLabelCategory;
+			sourceTree = "<group>";
+		};
+		F5F72DB31D61CC70008C0D62 /* PlacehoderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F5F72DB41D61CC70008C0D62 /* HMTextView.h */,
+				F5F72DB51D61CC70008C0D62 /* HMTextView.m */,
+			);
+			path = PlacehoderTextView;
+			sourceTree = "<group>";
+		};
+		F5F72DBA1D62AA5F008C0D62 /* DatePicterView */ = {
+			isa = PBXGroup;
+			children = (
+				F5F72DBB1D62AA5F008C0D62 /* DatePickerModel.h */,
+				F5F72DBC1D62AA5F008C0D62 /* DatePickerModel.m */,
+				F5F72DBD1D62AA5F008C0D62 /* PickerTabbarView.h */,
+				F5F72DBE1D62AA5F008C0D62 /* PickerTabbarView.m */,
+				F5F72DBF1D62AA5F008C0D62 /* YMDHMDatePickerView.h */,
+				F5F72DC01D62AA5F008C0D62 /* YMDHMDatePickerView.m */,
+				F5F72DC41D62ABDC008C0D62 /* 时间选择器 使用方法 */,
+			);
+			path = DatePicterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,6 +465,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5F72D221D619026008C0D62 /* LaunchScreen.storyboard in Resources */,
+				F5F72DC51D62ABDC008C0D62 /* 时间选择器 使用方法 in Resources */,
 				F5F72D1F1D619026008C0D62 /* Assets.xcassets in Resources */,
 				F5F72D1D1D619026008C0D62 /* Main.storyboard in Resources */,
 			);
@@ -426,8 +492,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F72DC11D62AA5F008C0D62 /* DatePickerModel.m in Sources */,
 				F5F72D701D61A1B0008C0D62 /* UILabel+BOBs.m in Sources */,
 				F5F72D9B1D61AEDD008C0D62 /* UIScrollView+BOBs.m in Sources */,
+				F5F72DB21D61C925008C0D62 /* UILabel+HYBAttributedCategory.m in Sources */,
 				F5F72DAA1D61B239008C0D62 /* PasswordBOBs.m in Sources */,
 				F5F72D6F1D61A1B0008C0D62 /* UIImage+BOBs.m in Sources */,
 				F5F72D1A1D619026008C0D62 /* ViewController.m in Sources */,
@@ -442,12 +510,16 @@
 				F5F72D171D619026008C0D62 /* AppDelegate.m in Sources */,
 				F5F72D921D61A8A3008C0D62 /* UIFont+BOBs.m in Sources */,
 				F5F72D7C1D61A47D008C0D62 /* NSFileManager+BOBs.m in Sources */,
+				F5F72DC21D62AA5F008C0D62 /* PickerTabbarView.m in Sources */,
+				F5F72DC31D62AA5F008C0D62 /* YMDHMDatePickerView.m in Sources */,
 				F5F72D8F1D61A744008C0D62 /* NSMutableDictionary+BOBs.m in Sources */,
 				F5F72D951D61AB99008C0D62 /* UIDevice+BOBs.m in Sources */,
 				F5F72D831D61A5C5008C0D62 /* NSNumber+BOBs.m in Sources */,
 				F5F72DA11D61AF56008C0D62 /* UIView+BOBs.m in Sources */,
+				F5F72DB91D61CD03008C0D62 /* NSAttributedString+BOBs.m in Sources */,
 				F5F72D791D61A41C008C0D62 /* NSDate+BOBs.m in Sources */,
 				F5F72D6E1D61A1B0008C0D62 /* UIColor+BOBs.m in Sources */,
+				F5F72DB61D61CC70008C0D62 /* HMTextView.m in Sources */,
 				F5F72D861D61A678008C0D62 /* NSProcessInfo+BOBs.m in Sources */,
 				F5F72D801D61A582008C0D62 /* NSMutableArray+BOBs.m in Sources */,
 				F5F72D6D1D61A1B0008C0D62 /* UIButton+BOBs.m in Sources */,
@@ -598,7 +670,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BOBUtils/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NXB.BOBUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -610,7 +682,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BOBUtils/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NXB.BOBUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";

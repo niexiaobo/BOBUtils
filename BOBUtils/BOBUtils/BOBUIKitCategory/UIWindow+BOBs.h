@@ -12,8 +12,6 @@
 @interface UIWindow (BOBs)
 /**
  *  Take a screenshot of current window
- *
- *  @return Return the screenshot as an UIImage
  */
 - (UIImage *)takeScreenshot;
 @end

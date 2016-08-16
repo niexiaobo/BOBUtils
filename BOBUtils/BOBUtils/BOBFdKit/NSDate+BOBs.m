@@ -16,6 +16,29 @@
     return [self dateFromDateInformation:inf];
 }
 
+#pragma mark - 当前时间
++ (double)getCurrentDate {
+    NSDate *dateNow = [NSDate date];
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    
+    NSInteger year;         //年
+    NSInteger month;        //月
+    NSInteger day;          //日
+    NSInteger hour;         //时
+    NSInteger minute;       //分
+    NSInteger second;       //秒
+    NSInteger nanosecond;   //10^-9秒
+    
+    [calendar getHour:&hour minute:&minute second:&second nanosecond:&nanosecond fromDate:dateNow];
+    
+    [calendar getEra:nil year:&year month:&month day:&day fromDate:dateNow];
+    
+    NSLog(@"%.ld-%.ld-%.ld %.ld:%02ld:%02ld.%03ld", year, month, day, hour, minute, second, nanosecond/1000000);
+    
+    NSString *cuurentTime = [NSString stringWithFormat:@"%04ld%02ld%02ld%02ld%02ld",year, month, day, hour, minute];
+    return [cuurentTime doubleValue];
+}
+
 + (NSDate *)month
 {
     return [[NSDate date] month];

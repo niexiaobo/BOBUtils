@@ -327,35 +327,15 @@ typedef NS_ENUM(NSInteger, FontName)
     FontNameZapfino
 };
 
-/**
- *  This class add some useful methods to UIFont
- */
 @interface UIFont (BOBs)
 
-/**
- *  Print in console all family and font names
- */
 + (void)allFamilyAndFonts;
 
-
-/**
- *  Print in console all font names for a given family
- *
- *  @param familyFontName Family to print the fonts
- *
- *  @return Return all the fonts for the given family
- */
 + (NSArray *)fontsNameForFamilyName:(FamilyFontName)familyFontName;
 
-/**
- *  Craete an UIFont object from the given font name and size
- *
- *  @param fontName Font name
- *  @param fontSize Size of the font
- *
- *  @return Return an UIFont from the given font name and size
- */
 + (UIFont *)fontForFontName:(FontName)fontName
                        size:(CGFloat)fontSize;
+
+
 
 @end

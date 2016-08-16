@@ -75,6 +75,20 @@
     return button;
 }
 
+- (void)setCornerRadius:(CGFloat)Radius BGColor:(UIColor*)BGColor Title:(NSString*)Title FoneSize:(int)FoneSize{
+    [self.layer setMasksToBounds:YES];
+    [self.layer setCornerRadius:Radius];
+    self.backgroundColor = BGColor;
+    [self setTitle:Title forState:UIControlStateNormal];
+    [self.titleLabel setFont:[UIFont systemFontOfSize:FoneSize]];
+}
+
+- (void)setborderWidth:(int)borderWidth ColorString:(NSString*)ColorString {
+    self.layer.borderWidth = borderWidth;  // 给图层添加一个有色边框
+    self.layer.borderColor = [UIColor colorWithHexString:ColorString].CGColor;
+    
+}
+
 - (void)setTitleFont:(FontName)fontName size:(CGFloat)size
 {
     [self.titleLabel setFont:[UIFont fontForFontName:fontName size:size]];

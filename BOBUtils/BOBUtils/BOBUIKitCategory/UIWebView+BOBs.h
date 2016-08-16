@@ -16,8 +16,6 @@
 
 /**
  *  Load the requested website
- *
- *  @param website Website to load
  */
 - (void)loadWebsite:(NSString *)website;
 @end

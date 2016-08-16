@@ -29,4 +29,12 @@
     return textField;
 }
 
+#pragma mark - 设置键盘上方工具条
+- (void)KeyboardToolView:(UIView*)keyBoardToolView {
+    if (self && keyBoardToolView) {
+        self.inputAccessoryView  = keyBoardToolView;
+    }
+}
+
+
 @end

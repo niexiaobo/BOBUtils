@@ -346,4 +346,17 @@
     return seachtext;
 }
 
+#pragma mark- ChineseToPinyin 获取汉字拼音
++ (NSString *)chineseToPinyin:(NSString *)chinese withSpace:(BOOL)withSpace {
+    CFStringRef hanzi = (__bridge CFStringRef)chinese;
+    CFMutableStringRef string = CFStringCreateMutableCopy(NULL, 0, hanzi);
+    CFStringTransform(string, NULL, kCFStringTransformMandarinLatin, NO);
+    CFStringTransform(string, NULL, kCFStringTransformStripDiacritics, NO);
+    NSString *pinyin = (NSString *)CFBridgingRelease(string);
+    if (!withSpace) {
+        pinyin = [pinyin stringByReplacingOccurrencesOfString:@" " withString:@""];
+    }
+    return pinyin;
+}
+
 @end
