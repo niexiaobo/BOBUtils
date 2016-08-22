@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F537DD841D6AFF2500A450FF /* SuggestionCollectScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DD831D6AFF2500A450FF /* SuggestionCollectScheduleCell.m */; };
+		F537DD881D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png in Resources */ = {isa = PBXBuildFile; fileRef = F537DD871D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png */; };
 		F5F72D141D619026008C0D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72D131D619026008C0D62 /* main.m */; };
 		F5F72D171D619026008C0D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72D161D619026008C0D62 /* AppDelegate.m */; };
 		F5F72D1A1D619026008C0D62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72D191D619026008C0D62 /* ViewController.m */; };
@@ -48,6 +50,8 @@
 		F5F72DC21D62AA5F008C0D62 /* PickerTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DBE1D62AA5F008C0D62 /* PickerTabbarView.m */; };
 		F5F72DC31D62AA5F008C0D62 /* YMDHMDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72DC01D62AA5F008C0D62 /* YMDHMDatePickerView.m */; };
 		F5F72DC51D62ABDC008C0D62 /* 时间选择器 使用方法 in Resources */ = {isa = PBXBuildFile; fileRef = F5F72DC41D62ABDC008C0D62 /* 时间选择器 使用方法 */; };
+		F5F72E1C1D64066B008C0D62 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72E1B1D64066B008C0D62 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		F5F72E1E1D64069B008C0D62 /* 控制器滑动（可单独设置） in Resources */ = {isa = PBXBuildFile; fileRef = F5F72E1D1D64069B008C0D62 /* 控制器滑动（可单独设置） */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F537DD821D6AFF2500A450FF /* SuggestionCollectScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionCollectScheduleCell.h; sourceTree = "<group>"; };
+		F537DD831D6AFF2500A450FF /* SuggestionCollectScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionCollectScheduleCell.m; sourceTree = "<group>"; };
+		F537DD871D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-08-22 下午5.42.05.png"; sourceTree = "<group>"; };
 		F5F72D0F1D619026008C0D62 /* BOBUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BOBUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F72D131D619026008C0D62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5F72D151D619026008C0D62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,6 +157,9 @@
 		F5F72DBF1D62AA5F008C0D62 /* YMDHMDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDHMDatePickerView.h; sourceTree = "<group>"; };
 		F5F72DC01D62AA5F008C0D62 /* YMDHMDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDHMDatePickerView.m; sourceTree = "<group>"; };
 		F5F72DC41D62ABDC008C0D62 /* 时间选择器 使用方法 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "时间选择器 使用方法"; sourceTree = "<group>"; };
+		F5F72E1A1D64066B008C0D62 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		F5F72E1B1D64066B008C0D62 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		F5F72E1D1D64069B008C0D62 /* 控制器滑动（可单独设置） */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "控制器滑动（可单独设置）"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +187,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F537DD811D6AFF2500A450FF /* ProgressStateCell */ = {
+			isa = PBXGroup;
+			children = (
+				F537DD871D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png */,
+				F537DD821D6AFF2500A450FF /* SuggestionCollectScheduleCell.h */,
+				F537DD831D6AFF2500A450FF /* SuggestionCollectScheduleCell.m */,
+			);
+			path = ProgressStateCell;
+			sourceTree = "<group>";
+		};
 		F5F72D061D619026008C0D62 = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +342,8 @@
 		F5F72DAE1D61C914008C0D62 /* ThirdExtension */ = {
 			isa = PBXGroup;
 			children = (
+				F537DD811D6AFF2500A450FF /* ProgressStateCell */,
+				F5F72E191D64066B008C0D62 /* FDFullscreenPopGesture */,
 				F5F72DBA1D62AA5F008C0D62 /* DatePicterView */,
 				F5F72DB31D61CC70008C0D62 /* PlacehoderTextView */,
 				F5F72DAF1D61C925008C0D62 /* HYBAttributedLabelCategory */,
@@ -359,6 +381,16 @@
 				F5F72DC41D62ABDC008C0D62 /* 时间选择器 使用方法 */,
 			);
 			path = DatePicterView;
+			sourceTree = "<group>";
+		};
+		F5F72E191D64066B008C0D62 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F5F72E1A1D64066B008C0D62 /* UINavigationController+FDFullscreenPopGesture.h */,
+				F5F72E1B1D64066B008C0D62 /* UINavigationController+FDFullscreenPopGesture.m */,
+				F5F72E1D1D64069B008C0D62 /* 控制器滑动（可单独设置） */,
+			);
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +496,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F537DD881D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png in Resources */,
+				F5F72E1E1D64069B008C0D62 /* 控制器滑动（可单独设置） in Resources */,
 				F5F72D221D619026008C0D62 /* LaunchScreen.storyboard in Resources */,
 				F5F72DC51D62ABDC008C0D62 /* 时间选择器 使用方法 in Resources */,
 				F5F72D1F1D619026008C0D62 /* Assets.xcassets in Resources */,
@@ -504,6 +538,7 @@
 				F5F72D891D61A6B1008C0D62 /* NSString+BOBs.m in Sources */,
 				F5F72D9E1D61AF1D008C0D62 /* UITableView+BOBs.m in Sources */,
 				F5F72D711D61A1B0008C0D62 /* UITextField+BOBs.m in Sources */,
+				F537DD841D6AFF2500A450FF /* SuggestionCollectScheduleCell.m in Sources */,
 				F5F72DA41D61AFAB008C0D62 /* UIWebView+BOBs.m in Sources */,
 				F5F72D4C1D619CAF008C0D62 /* BOBUtils.m in Sources */,
 				F5F72D8C1D61A70B008C0D62 /* NSDictionary+BOBs.m in Sources */,
@@ -522,6 +557,7 @@
 				F5F72DB61D61CC70008C0D62 /* HMTextView.m in Sources */,
 				F5F72D861D61A678008C0D62 /* NSProcessInfo+BOBs.m in Sources */,
 				F5F72D801D61A582008C0D62 /* NSMutableArray+BOBs.m in Sources */,
+				F5F72E1C1D64066B008C0D62 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				F5F72D6D1D61A1B0008C0D62 /* UIButton+BOBs.m in Sources */,
 				F5F72D981D61AEAD008C0D62 /* UIImageView+BOBs.m in Sources */,
 				F5F72D141D619026008C0D62 /* main.m in Sources */,
@@ -754,6 +790,7 @@
 				F5F72D3E1D619026008C0D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5F72D3F1D619026008C0D62 /* Build configuration list for PBXNativeTarget "BOBUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +799,7 @@
 				F5F72D411D619026008C0D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5F72D421D619026008C0D62 /* Build configuration list for PBXNativeTarget "BOBUtilsUITests" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +808,7 @@
 				F5F72D441D619026008C0D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
