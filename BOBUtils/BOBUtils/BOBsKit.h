@@ -62,6 +62,7 @@
 #import "UITableView+BOBs.h"
 #import "UITextField+BOBs.h"
 #import "UIView+BOBs.h"
+#import "UIViewExt.h"
 #import "UIWebView+BOBs.h"
 #import "UIWindow+BOBs.h"
 

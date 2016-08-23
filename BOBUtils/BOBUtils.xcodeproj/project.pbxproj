@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C59F247122F5EFF2144127A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC41B0C7549C80C97E6E923 /* libPods.a */; };
 		F537DD841D6AFF2500A450FF /* SuggestionCollectScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DD831D6AFF2500A450FF /* SuggestionCollectScheduleCell.m */; };
 		F537DD881D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png in Resources */ = {isa = PBXBuildFile; fileRef = F537DD871D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png */; };
+		F537DD911D6BE9EE00A450FF /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DD8B1D6BE9EE00A450FF /* HCSStarRatingView.m */; };
+		F537DD921D6BE9EE00A450FF /* 星星调用.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F537DD8C1D6BE9EE00A450FF /* 星星调用.rtf */; };
+		F537DD931D6BE9EE00A450FF /* LimitInput.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DD8F1D6BE9EE00A450FF /* LimitInput.m */; };
+		F537DD941D6BE9EE00A450FF /* 调用.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F537DD901D6BE9EE00A450FF /* 调用.rtf */; };
+		F537DD9A1D6BEFC300A450FF /* NTHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DD971D6BEFC300A450FF /* NTHttpRequest.m */; };
+		F537DD9B1D6BEFC300A450FF /* NTNetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DD991D6BEFC300A450FF /* NTNetUtil.m */; };
+		F537DDA31D6C296100A450FF /* NetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DDA21D6C296100A450FF /* NetEngine.m */; };
+		F537DDA81D6C2D4800A450FF /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DDA71D6C2D4800A450FF /* UIButton+countDown.m */; };
+		F537DDAC1D6C2DC000A450FF /* UIButton+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DDAB1D6C2DC000A450FF /* UIButton+touch.m */; };
+		F537DDAF1D6C2ECB00A450FF /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DDAE1D6C2ECB00A450FF /* UIViewExt.m */; };
 		F5F72D141D619026008C0D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72D131D619026008C0D62 /* main.m */; };
 		F5F72D171D619026008C0D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72D161D619026008C0D62 /* AppDelegate.m */; };
 		F5F72D1A1D619026008C0D62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F72D191D619026008C0D62 /* ViewController.m */; };
@@ -72,9 +83,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BC41B0C7549C80C97E6E923 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CF877898886A84251F4010 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F537DD821D6AFF2500A450FF /* SuggestionCollectScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionCollectScheduleCell.h; sourceTree = "<group>"; };
 		F537DD831D6AFF2500A450FF /* SuggestionCollectScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionCollectScheduleCell.m; sourceTree = "<group>"; };
 		F537DD871D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-08-22 下午5.42.05.png"; sourceTree = "<group>"; };
+		F537DD8A1D6BE9EE00A450FF /* HCSStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSStarRatingView.h; sourceTree = "<group>"; };
+		F537DD8B1D6BE9EE00A450FF /* HCSStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSStarRatingView.m; sourceTree = "<group>"; };
+		F537DD8C1D6BE9EE00A450FF /* 星星调用.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "星星调用.rtf"; sourceTree = "<group>"; };
+		F537DD8E1D6BE9EE00A450FF /* LimitInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitInput.h; sourceTree = "<group>"; };
+		F537DD8F1D6BE9EE00A450FF /* LimitInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitInput.m; sourceTree = "<group>"; };
+		F537DD901D6BE9EE00A450FF /* 调用.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "调用.rtf"; sourceTree = "<group>"; };
+		F537DD961D6BEFC300A450FF /* NTHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTHttpRequest.h; sourceTree = "<group>"; };
+		F537DD971D6BEFC300A450FF /* NTHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTHttpRequest.m; sourceTree = "<group>"; };
+		F537DD981D6BEFC300A450FF /* NTNetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNetUtil.h; sourceTree = "<group>"; };
+		F537DD991D6BEFC300A450FF /* NTNetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNetUtil.m; sourceTree = "<group>"; };
+		F537DDA11D6C296100A450FF /* NetEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetEngine.h; sourceTree = "<group>"; };
+		F537DDA21D6C296100A450FF /* NetEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetEngine.m; sourceTree = "<group>"; };
+		F537DDA41D6C2A7300A450FF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F537DDA61D6C2D4800A450FF /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
+		F537DDA71D6C2D4800A450FF /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
+		F537DDAA1D6C2DC000A450FF /* UIButton+touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+touch.h"; sourceTree = "<group>"; };
+		F537DDAB1D6C2DC000A450FF /* UIButton+touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touch.m"; sourceTree = "<group>"; };
+		F537DDAD1D6C2ECB00A450FF /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		F537DDAE1D6C2ECB00A450FF /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		F5F72D0F1D619026008C0D62 /* BOBUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BOBUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F72D131D619026008C0D62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5F72D151D619026008C0D62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,7 +143,7 @@
 		F5F72D781D61A41C008C0D62 /* NSDate+BOBs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BOBs.m"; sourceTree = "<group>"; };
 		F5F72D7A1D61A47D008C0D62 /* NSFileManager+BOBs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+BOBs.h"; sourceTree = "<group>"; };
 		F5F72D7B1D61A47D008C0D62 /* NSFileManager+BOBs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+BOBs.m"; sourceTree = "<group>"; };
-		F5F72D7D1D61A510008C0D62 /* BOBsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOBsKit.h; sourceTree = "<group>"; };
+		F5F72D7D1D61A510008C0D62 /* BOBsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOBsKit.h; path = ../BOBsKit.h; sourceTree = "<group>"; };
 		F5F72D7E1D61A582008C0D62 /* NSMutableArray+BOBs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+BOBs.h"; sourceTree = "<group>"; };
 		F5F72D7F1D61A582008C0D62 /* NSMutableArray+BOBs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+BOBs.m"; sourceTree = "<group>"; };
 		F5F72D811D61A5C5008C0D62 /* NSNumber+BOBs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BOBs.h"; sourceTree = "<group>"; };
@@ -160,6 +192,7 @@
 		F5F72E1A1D64066B008C0D62 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		F5F72E1B1D64066B008C0D62 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		F5F72E1D1D64069B008C0D62 /* 控制器滑动（可单独设置） */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "控制器滑动（可单独设置）"; sourceTree = "<group>"; };
+		F68FA18820A424414A73C40F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C59F247122F5EFF2144127A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +221,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43345E51F26AE668AD4D73C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BC41B0C7549C80C97E6E923 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55C3864184A9A1CDE1070254 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F68FA18820A424414A73C40F /* Pods.debug.xcconfig */,
+				93CF877898886A84251F4010 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F537DD811D6AFF2500A450FF /* ProgressStateCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +248,68 @@
 			path = ProgressStateCell;
 			sourceTree = "<group>";
 		};
+		F537DD891D6BE9EE00A450FF /* 星星评分 */ = {
+			isa = PBXGroup;
+			children = (
+				F537DD8A1D6BE9EE00A450FF /* HCSStarRatingView.h */,
+				F537DD8B1D6BE9EE00A450FF /* HCSStarRatingView.m */,
+				F537DD8C1D6BE9EE00A450FF /* 星星调用.rtf */,
+			);
+			path = "星星评分";
+			sourceTree = "<group>";
+		};
+		F537DD8D1D6BE9EE00A450FF /* textField、textView字数限制 */ = {
+			isa = PBXGroup;
+			children = (
+				F537DD8E1D6BE9EE00A450FF /* LimitInput.h */,
+				F537DD8F1D6BE9EE00A450FF /* LimitInput.m */,
+				F537DD901D6BE9EE00A450FF /* 调用.rtf */,
+			);
+			path = "textField、textView字数限制";
+			sourceTree = "<group>";
+		};
+		F537DD951D6BEFC300A450FF /* AF网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				F537DD961D6BEFC300A450FF /* NTHttpRequest.h */,
+				F537DD971D6BEFC300A450FF /* NTHttpRequest.m */,
+				F537DD981D6BEFC300A450FF /* NTNetUtil.h */,
+				F537DD991D6BEFC300A450FF /* NTNetUtil.m */,
+			);
+			name = "AF网络请求";
+			path = AFNetworkingNetService;
+			sourceTree = "<group>";
+		};
+		F537DDA01D6C296100A450FF /* MK网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				F537DDA11D6C296100A450FF /* NetEngine.h */,
+				F537DDA21D6C296100A450FF /* NetEngine.m */,
+			);
+			name = "MK网络请求";
+			path = MKNetworkKitNetService;
+			sourceTree = "<group>";
+		};
+		F537DDA51D6C2D4800A450FF /* UIButton倒计时按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				F537DDA61D6C2D4800A450FF /* UIButton+countDown.h */,
+				F537DDA71D6C2D4800A450FF /* UIButton+countDown.m */,
+			);
+			name = "UIButton倒计时按钮";
+			path = "UIButton+Category";
+			sourceTree = "<group>";
+		};
+		F537DDA91D6C2DC000A450FF /* button按钮重复点击 */ = {
+			isa = PBXGroup;
+			children = (
+				F537DDAA1D6C2DC000A450FF /* UIButton+touch.h */,
+				F537DDAB1D6C2DC000A450FF /* UIButton+touch.m */,
+			);
+			name = "button按钮重复点击";
+			path = buttonClickTimeout;
+			sourceTree = "<group>";
+		};
 		F5F72D061D619026008C0D62 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +317,8 @@
 				F5F72D2B1D619026008C0D62 /* BOBUtilsTests */,
 				F5F72D361D619026008C0D62 /* BOBUtilsUITests */,
 				F5F72D101D619026008C0D62 /* Products */,
+				55C3864184A9A1CDE1070254 /* Pods */,
+				43345E51F26AE668AD4D73C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,7 +335,6 @@
 		F5F72D111D619026008C0D62 /* BOBUtils */ = {
 			isa = PBXGroup;
 			children = (
-				F5F72D7D1D61A510008C0D62 /* BOBsKit.h */,
 				F5F72DAE1D61C914008C0D62 /* ThirdExtension */,
 				F5F72D731D61A227008C0D62 /* BOBFdKit */,
 				F5F72D601D61A1B0008C0D62 /* BOBUIKitCategory */,
@@ -242,6 +356,7 @@
 				F5F72D201D619026008C0D62 /* LaunchScreen.storyboard */,
 				F5F72D231D619026008C0D62 /* Info.plist */,
 				F5F72D131D619026008C0D62 /* main.m */,
+				F537DDA41D6C2A7300A450FF /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -304,6 +419,8 @@
 				F5F72D9D1D61AF1D008C0D62 /* UITableView+BOBs.m */,
 				F5F72D9F1D61AF56008C0D62 /* UIView+BOBs.h */,
 				F5F72DA01D61AF56008C0D62 /* UIView+BOBs.m */,
+				F537DDAD1D6C2ECB00A450FF /* UIViewExt.h */,
+				F537DDAE1D6C2ECB00A450FF /* UIViewExt.m */,
 				F5F72DA21D61AFAB008C0D62 /* UIWebView+BOBs.h */,
 				F5F72DA31D61AFAB008C0D62 /* UIWebView+BOBs.m */,
 				F5F72DA51D61AFDE008C0D62 /* UIWindow+BOBs.h */,
@@ -315,6 +432,7 @@
 		F5F72D731D61A227008C0D62 /* BOBFdKit */ = {
 			isa = PBXGroup;
 			children = (
+				F5F72D7D1D61A510008C0D62 /* BOBsKit.h */,
 				F5F72D741D61A3C8008C0D62 /* NSArray+BOBs.h */,
 				F5F72D751D61A3C8008C0D62 /* NSArray+BOBs.m */,
 				F5F72D771D61A41C008C0D62 /* NSDate+BOBs.h */,
@@ -342,6 +460,12 @@
 		F5F72DAE1D61C914008C0D62 /* ThirdExtension */ = {
 			isa = PBXGroup;
 			children = (
+				F537DDA91D6C2DC000A450FF /* button按钮重复点击 */,
+				F537DDA51D6C2D4800A450FF /* UIButton倒计时按钮 */,
+				F537DDA01D6C296100A450FF /* MK网络请求 */,
+				F537DD951D6BEFC300A450FF /* AF网络请求 */,
+				F537DD891D6BE9EE00A450FF /* 星星评分 */,
+				F537DD8D1D6BE9EE00A450FF /* textField、textView字数限制 */,
 				F537DD811D6AFF2500A450FF /* ProgressStateCell */,
 				F5F72E191D64066B008C0D62 /* FDFullscreenPopGesture */,
 				F5F72DBA1D62AA5F008C0D62 /* DatePicterView */,
@@ -400,9 +524,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5F72D3C1D619026008C0D62 /* Build configuration list for PBXNativeTarget "BOBUtils" */;
 			buildPhases = (
+				A5EC27BE5D7F61B7649A72A7 /* Check Pods Manifest.lock */,
 				F5F72D0B1D619026008C0D62 /* Sources */,
 				F5F72D0C1D619026008C0D62 /* Frameworks */,
 				F5F72D0D1D619026008C0D62 /* Resources */,
+				E9EA8937D12969778E45C6FA /* Embed Pods Frameworks */,
+				3236D48F667D1A1399AFB8FC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -496,8 +623,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F537DD921D6BE9EE00A450FF /* 星星调用.rtf in Resources */,
 				F537DD881D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png in Resources */,
 				F5F72E1E1D64069B008C0D62 /* 控制器滑动（可单独设置） in Resources */,
+				F537DD941D6BE9EE00A450FF /* 调用.rtf in Resources */,
 				F5F72D221D619026008C0D62 /* LaunchScreen.storyboard in Resources */,
 				F5F72DC51D62ABDC008C0D62 /* 时间选择器 使用方法 in Resources */,
 				F5F72D1F1D619026008C0D62 /* Assets.xcassets in Resources */,
@@ -521,6 +650,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3236D48F667D1A1399AFB8FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5EC27BE5D7F61B7649A72A7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9EA8937D12969778E45C6FA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5F72D0B1D619026008C0D62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -538,7 +715,9 @@
 				F5F72D891D61A6B1008C0D62 /* NSString+BOBs.m in Sources */,
 				F5F72D9E1D61AF1D008C0D62 /* UITableView+BOBs.m in Sources */,
 				F5F72D711D61A1B0008C0D62 /* UITextField+BOBs.m in Sources */,
+				F537DD9B1D6BEFC300A450FF /* NTNetUtil.m in Sources */,
 				F537DD841D6AFF2500A450FF /* SuggestionCollectScheduleCell.m in Sources */,
+				F537DD9A1D6BEFC300A450FF /* NTHttpRequest.m in Sources */,
 				F5F72DA41D61AFAB008C0D62 /* UIWebView+BOBs.m in Sources */,
 				F5F72D4C1D619CAF008C0D62 /* BOBUtils.m in Sources */,
 				F5F72D8C1D61A70B008C0D62 /* NSDictionary+BOBs.m in Sources */,
@@ -546,6 +725,9 @@
 				F5F72D921D61A8A3008C0D62 /* UIFont+BOBs.m in Sources */,
 				F5F72D7C1D61A47D008C0D62 /* NSFileManager+BOBs.m in Sources */,
 				F5F72DC21D62AA5F008C0D62 /* PickerTabbarView.m in Sources */,
+				F537DDAF1D6C2ECB00A450FF /* UIViewExt.m in Sources */,
+				F537DD911D6BE9EE00A450FF /* HCSStarRatingView.m in Sources */,
+				F537DDA31D6C296100A450FF /* NetEngine.m in Sources */,
 				F5F72DC31D62AA5F008C0D62 /* YMDHMDatePickerView.m in Sources */,
 				F5F72D8F1D61A744008C0D62 /* NSMutableDictionary+BOBs.m in Sources */,
 				F5F72D951D61AB99008C0D62 /* UIDevice+BOBs.m in Sources */,
@@ -562,7 +744,10 @@
 				F5F72D981D61AEAD008C0D62 /* UIImageView+BOBs.m in Sources */,
 				F5F72D141D619026008C0D62 /* main.m in Sources */,
 				F5F72DA71D61AFDF008C0D62 /* UIWindow+BOBs.m in Sources */,
+				F537DDA81D6C2D4800A450FF /* UIButton+countDown.m in Sources */,
 				F5F72DAD1D61B29A008C0D62 /* SystemSoundBOBs.m in Sources */,
+				F537DD931D6BE9EE00A450FF /* LimitInput.m in Sources */,
+				F537DDAC1D6C2DC000A450FF /* UIButton+touch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,8 +888,10 @@
 		};
 		F5F72D3D1D619026008C0D62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68FA18820A424414A73C40F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BOBUtils/PrefixHeader.pch";
 				INFOPLIST_FILE = BOBUtils/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -715,8 +902,10 @@
 		};
 		F5F72D3E1D619026008C0D62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CF877898886A84251F4010 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BOBUtils/PrefixHeader.pch";
 				INFOPLIST_FILE = BOBUtils/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

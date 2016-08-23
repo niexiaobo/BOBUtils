@@ -10,6 +10,16 @@
 
 @interface UIView (BOBs)
 
+#pragma mark - 位置，坐标 修改
+@property (nonatomic, assign) CGFloat x;
+@property (nonatomic, assign) CGFloat y;
+@property (nonatomic, assign) CGFloat centerX;
+@property (nonatomic, assign) CGFloat centerY;
+@property (nonatomic, assign) CGFloat width;
+@property (nonatomic, assign) CGFloat height;
+@property (nonatomic, assign) CGSize size;
+
+
 + (UIView *)initWithFrame:(CGRect)frame
           backgroundColor:(UIColor *)backgroundColor;
 
@@ -37,14 +47,6 @@
 - (void)pulseViewWithTime:(CGFloat)seconds;
 
 
-#pragma mark - 位置，坐标 修改
-@property (nonatomic, assign) CGFloat x;
-@property (nonatomic, assign) CGFloat y;
-@property (nonatomic, assign) CGFloat centerX;
-@property (nonatomic, assign) CGFloat centerY;
-@property (nonatomic, assign) CGFloat width;
-@property (nonatomic, assign) CGFloat height;
-@property (nonatomic, assign) CGSize size;
 
 
 
