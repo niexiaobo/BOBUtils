@@ -52,6 +52,9 @@
 #import "NSNumber+BOBs.h"
 #import "NSProcessInfo+BOBs.h"
 #import "NSString+BOBs.h"
+#import "NSDictionary+BOBs.h"
+#import "NSMutableDictionary+BOBs.h"
+#import "NSAttributedString+BOBs.h"
 
 /**
  *   Additions
@@ -63,6 +66,7 @@
 #import "UIImage+BOBs.h"
 #import "UIImageView+BOBs.h"
 #import "UILabel+BOBs.h"
+#import "UITextView+BOBs.h"
 #import "UIScrollView+BOBs.h"
 #import "UITableView+BOBs.h"
 #import "UITextField+BOBs.h"

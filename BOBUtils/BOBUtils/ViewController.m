@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "UIButton+BOBs.h"
+#import "BOBsKit.h"
+
 @interface ViewController ()
 
 @end
@@ -22,6 +23,10 @@
     testButton.title = @"按钮标题";
     
     NSLog(@"---->%@<----->%@<---",testButton.title,  testButton.titleLabel.text);
+    
+    NSMutableDictionary *temp = [[NSMutableDictionary alloc]init];
+    [temp addObject:@[@"按钮标题"] forKey:@"keys"];
+    
     
 }
 

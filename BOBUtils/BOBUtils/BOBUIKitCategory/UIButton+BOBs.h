@@ -15,7 +15,7 @@
 #pragma mark - 新增title属性
 @property (nonatomic, copy) NSString *title;
 
-
+#pragma mark - 初始化
 + (id)initWithFrame:(CGRect)frame;
 
 + (id)initWithFrame:(CGRect)frame
@@ -57,9 +57,11 @@ highlightedBackgroundImage:(UIImage *)highlightedBackgroundImage;
 
 - (void)setTitleFont:(FontName)fontName
                 size:(CGFloat)size;
-//设置圆角
+
+#pragma mark - 设置圆角
 - (void)setCornerRadius:(CGFloat)Radius BGColor:(UIColor*)BGColor Title:(NSString*)Title FoneSize:(int)FoneSize;
-//边框颜色
+
+#pragma mark - 边框颜色
 - (void)setborderWidth:(int)borderWidth ColorString:(NSString*)ColorString;
 
 - (void)setTitleColor:(UIColor *)color;

@@ -10,4 +10,7 @@
 
 @interface NSMutableDictionary (BOBs)
 
+#pragma mark - 替换 setObject: forKey: （对传入值 判空，避免崩溃）
+- (void)addObject:(NSObject *)anObject forKey:(NSString*)aKey;
+
 @end

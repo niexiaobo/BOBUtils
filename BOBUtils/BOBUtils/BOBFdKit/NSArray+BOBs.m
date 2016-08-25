@@ -49,27 +49,20 @@
 #pragma mark- 替换objectAtIndex
 - (id)objectAtIndex_NXB:(NSUInteger)index{
     
-    
     if([self count] <= 0){
 #ifdef DEBUG
-        NSAssert(NO, @"index %d > count %d", index, self.count);
+        NSAssert(NO, @"index %lu > count %lu", (unsigned long)index, (unsigned long)self.count);
 #endif
         return nil;
     }else if([self count] <= index){
 #ifdef DEBUG
-        NSAssert(NO, @"index %d > count %d", index, self.count);
+        NSAssert(NO, @"index %lu > count %lu", (unsigned long)index, (unsigned long)self.count);
 #endif
         return nil;
     }else{
-        
         return [self objectAtIndex:index];
-        
     }
-    
 }
-
-
-
 
 #pragma mark- 真机环境：禁止调用NSMutableArray 方法
 - (id)addObject:(id)anObject{
