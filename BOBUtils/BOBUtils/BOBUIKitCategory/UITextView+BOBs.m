@@ -15,4 +15,20 @@
         self.inputAccessoryView  = keyBoardToolView;
     }
 }
+
+#pragma mark - 重写text属性
+- (NSString *)text {
+    return objc_getAssociatedObject(self, @selector(text));
+}
+
+- (void)setText:(NSString *)text {
+    NSString *tempText = (text==nil||[text isKindOfClass:[NSNull class]]?@"":text);
+    if ([tempText isKindOfClass:[NSNumber class]]) {
+        tempText = [NSString stringWithFormat:@"%@",tempText];
+    } else if (![tempText isKindOfClass:[NSString class]]) {
+        tempText = @"";
+    }
+    objc_setAssociatedObject(self, @selector(text), tempText, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
 @end

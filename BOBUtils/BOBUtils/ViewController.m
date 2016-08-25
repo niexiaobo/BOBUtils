@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UIButton+BOBs.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *testLab = [[UIButton alloc]init];
+    testLab.title = @"ahhjah";
+    
+    NSLog(@"---->%@<----->%@<---",testLab.title,  testLab.titleLabel.text);
+    
 }
 
 - (void)didReceiveMemoryWarning {

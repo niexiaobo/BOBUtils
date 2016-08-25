@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "UIFont+BOBs.h"
+#import <objc/runtime.h>
+
 @interface UIButton (BOBs)
+
+#pragma mark - 新增title属性
+@property (nonatomic, copy) NSString *title;
+
 
 + (id)initWithFrame:(CGRect)frame;
 
@@ -60,5 +66,7 @@ highlightedBackgroundImage:(UIImage *)highlightedBackgroundImage;
 
 - (void)setTitleColor:(UIColor *)color
      highlightedColor:(UIColor *)highlightedColor;
+
+
 
 @end

@@ -10,8 +10,28 @@
 #import "UIImage+BOBs.h"
 #import "UIColor+BOBs.h"
 
+static const char * RY_CLICKKEY = "ry_clickkey";
 
 @implementation UIButton (BOBs)
+
+
+- (NSString *)title {
+    
+    [self setTitle:objc_getAssociatedObject(self, @selector(title)) forState:0];
+    return objc_getAssociatedObject(self, @selector(title));
+}
+
+- (void)setTitle:(NSString *)title {
+    NSString *tempText = (title==nil||[title isKindOfClass:[NSNull class]]?@"":title);
+    if ([tempText isKindOfClass:[NSNumber class]]) {
+        tempText = [NSString stringWithFormat:@"%@",tempText];
+    } else if (![tempText isKindOfClass:[NSString class]]) {
+        tempText = @"";
+    }
+
+    objc_setAssociatedObject(self, @selector(title), tempText, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
 + (id)initWithFrame:(CGRect)frame
 {
     return [UIButton initWithFrame:frame title:nil];

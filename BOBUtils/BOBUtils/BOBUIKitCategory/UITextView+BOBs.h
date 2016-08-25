@@ -11,4 +11,8 @@
 @interface UITextView (BOBs)
 #pragma mark - 设置键盘上方工具条
 - (void)KeyboardToolView:(UIView*)keyBoardToolView;
+
+#pragma mark - 重写text属性
+@property (nonatomic, copy) NSString *text;
+
 @end

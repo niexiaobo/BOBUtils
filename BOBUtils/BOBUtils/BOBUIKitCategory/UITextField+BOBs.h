@@ -10,6 +10,9 @@
 #import "UIFont+BOBs.h"
 
 @interface UITextField (BOBs)
+#pragma mark - 重写text属性
+@property (nonatomic, copy) NSString *text;
+
 + (UITextField *)initWithFrame:(CGRect)frame
                    placeholder:(NSString *)placeholder
                          color:(UIColor *)color
