@@ -38,6 +38,11 @@
 #endif
 
 /**
+ *  runtime
+ */
+#import <objc/runtime.h>
+
+/**
  *  Foundation Additions
  */
 #import "NSArray+BOBs.h"

@@ -18,10 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UIButton *testLab = [[UIButton alloc]init];
-    testLab.title = @"ahhjah";
+    UIButton *testButton = [[UIButton alloc]init];
+    testButton.title = @"按钮标题";
     
-    NSLog(@"---->%@<----->%@<---",testLab.title,  testLab.titleLabel.text);
+    NSLog(@"---->%@<----->%@<---",testButton.title,  testButton.titleLabel.text);
     
 }
 
