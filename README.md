@@ -1,3 +1,7 @@
+[![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg?maxAge=2592000)]()
+[![License](https://img.shields.io/github/license/bang590/JSPatch.svg?style=flat)](https://github.com/bang590/JSPatch/blob/master/LICENSE)
+
+
 # BOBUtils
 常用方法等收集、添加扩展类、工具类方法、请求方法封装（包括图片上传等）等等 拥有很多方便快捷功能 ^_^
 
