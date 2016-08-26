@@ -1,6 +1,6 @@
 ![BOBUtils](https://img.shields.io/badge/build-passing-green.svg)
 ![BOBUtils](https://img.shields.io/badge/BOBUtils-99.9-orange.svg)
-![BOBUtils](https://github.com/bang590/JSPatch/blob/master/LICENSE)
+![BOBUtils](https://img.shields.io/badge/LICENSE-MIT-brightgreen.svg)
 
 
 # BOBUtils
