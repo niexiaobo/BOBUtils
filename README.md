@@ -1,5 +1,6 @@
-[![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg?maxAge=2592000)]()
-[![License](https://img.shields.io/github/license/bang590/JSPatch.svg?style=flat)](https://github.com/bang590/JSPatch/blob/master/LICENSE)
+![BOBUtils](https://img.shields.io/badge/build-passing-green.svg)
+![BOBUtils](https://img.shields.io/badge/BOBUtils-99.9-orange.svg)
+![License](https://github.com/bang590/JSPatch/blob/master/LICENSE）
 
 
 # BOBUtils
