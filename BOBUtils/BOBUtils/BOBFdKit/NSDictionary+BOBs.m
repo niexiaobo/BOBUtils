@@ -9,5 +9,18 @@
 #import "NSDictionary+BOBs.h"
 
 @implementation NSDictionary (BOBs)
+- (NSArray *)keyArray {
+    if (self) {
+        return [self allKeys];
+    }
+    return @[];
+}
+
+- (NSArray *)valuesArray {
+    if (self) {
+        return [self allValues];
+    }
+    return @[];
+}
 
 @end

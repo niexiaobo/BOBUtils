@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C59F247122F5EFF2144127A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC41B0C7549C80C97E6E923 /* libPods.a */; };
+		F52F1D761D77C1370036FFF5 /* NSSet+BOBs.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F1D751D77C1370036FFF5 /* NSSet+BOBs.m */; };
 		F537DD841D6AFF2500A450FF /* SuggestionCollectScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DD831D6AFF2500A450FF /* SuggestionCollectScheduleCell.m */; };
 		F537DD881D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png in Resources */ = {isa = PBXBuildFile; fileRef = F537DD871D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png */; };
 		F537DD911D6BE9EE00A450FF /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F537DD8B1D6BE9EE00A450FF /* HCSStarRatingView.m */; };
@@ -85,6 +86,8 @@
 /* Begin PBXFileReference section */
 		4BC41B0C7549C80C97E6E923 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CF877898886A84251F4010 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F52F1D741D77C1370036FFF5 /* NSSet+BOBs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+BOBs.h"; sourceTree = "<group>"; };
+		F52F1D751D77C1370036FFF5 /* NSSet+BOBs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BOBs.m"; sourceTree = "<group>"; };
 		F537DD821D6AFF2500A450FF /* SuggestionCollectScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionCollectScheduleCell.h; sourceTree = "<group>"; };
 		F537DD831D6AFF2500A450FF /* SuggestionCollectScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionCollectScheduleCell.m; sourceTree = "<group>"; };
 		F537DD871D6B007E00A450FF /* 屏幕快照 2016-08-22 下午5.42.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-08-22 下午5.42.05.png"; sourceTree = "<group>"; };
@@ -453,6 +456,8 @@
 				F5F72D8E1D61A744008C0D62 /* NSMutableDictionary+BOBs.m */,
 				F5F72DB71D61CD03008C0D62 /* NSAttributedString+BOBs.h */,
 				F5F72DB81D61CD03008C0D62 /* NSAttributedString+BOBs.m */,
+				F52F1D741D77C1370036FFF5 /* NSSet+BOBs.h */,
+				F52F1D751D77C1370036FFF5 /* NSSet+BOBs.m */,
 			);
 			path = BOBFdKit;
 			sourceTree = "<group>";
@@ -726,6 +731,7 @@
 				F5F72D7C1D61A47D008C0D62 /* NSFileManager+BOBs.m in Sources */,
 				F5F72DC21D62AA5F008C0D62 /* PickerTabbarView.m in Sources */,
 				F537DDAF1D6C2ECB00A450FF /* UIViewExt.m in Sources */,
+				F52F1D761D77C1370036FFF5 /* NSSet+BOBs.m in Sources */,
 				F537DD911D6BE9EE00A450FF /* HCSStarRatingView.m in Sources */,
 				F537DDA31D6C296100A450FF /* NetEngine.m in Sources */,
 				F5F72DC31D62AA5F008C0D62 /* YMDHMDatePickerView.m in Sources */,

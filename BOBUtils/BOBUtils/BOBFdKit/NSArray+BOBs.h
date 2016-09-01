@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, SequenceType)
+{
+    OrderedAscending = 0,
+    OrderedDescending = 1,
+    OrderedSame = 2
+};
+
 @interface NSArray (BOBs)
 - (id)safeObjectAtIndex:(NSUInteger)index;
 
@@ -44,6 +51,17 @@
 + (NSString *)arrayToJson:(NSArray *)array;
 
 + (NSArray *)reversedArray:(NSArray *)array;
+
+#pragma mark - 去重，不乱序,不排序
+- (NSArray *)numberSortByArray;
+#pragma mark - 去重，不乱序,不排序 - 2
+- (NSArray *)numberSortByArray2;
+#pragma mark - 去重，数字大小 排序
+- (NSArray *)numberArrayDeduplBySortType:(SequenceType)sortType;
+#pragma mark - 不去重，数字大小 排序
+- (NSArray *)numberArrayBySortType:(SequenceType)sortType;
+#pragma mark - 去重，字符从前往后一个一个对比 排序（字母数字混合）
+- (NSArray *)stringNumberArrayBySortType:(SequenceType)sortType;
 
 
 @end

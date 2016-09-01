@@ -27,7 +27,15 @@
     NSMutableDictionary *temp = [[NSMutableDictionary alloc]init];
     [temp addObject:@[@"按钮标题"] forKey:@"keys"];
     
+    NSArray *sortArray = @[@"A2",@"A1",@"c3",@"d4",@"b",@"d12"];
+    NSSet *sortSet = [NSSet setWithArray:sortArray];
+    NSSet *set = [NSSet setWithArray:sortArray];
     
+    NSArray *sortDesc = @[[[NSSortDescriptor alloc] initWithKey:nil ascending:YES]];
+    
+    NSArray *sortSetArray = [set sortedArrayUsingDescriptors:sortDesc];
+     NSLog(@"--sortSet-->%@<----<---",[sortSet allObjects]);
+     NSLog(@"---sortSetArray->%@<----<---",sortSetArray);
 }
 
 - (void)didReceiveMemoryWarning {

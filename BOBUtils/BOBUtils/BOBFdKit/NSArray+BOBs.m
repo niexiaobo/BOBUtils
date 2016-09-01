@@ -252,4 +252,99 @@
     return array;
 }
 
+#pragma mark - 去重，不乱序,不排序 - 2
+/*
+ NSArray *arr = @[@111,@222,@111,@333];
+ 返回：@[@111,@222,@333];
+ */
+- (NSArray *)numberSortByArray2 {
+    if (!self) {
+        return @[];
+    }
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    for (NSNumber *number in self) {
+        [dict setObject:number forKey:number];
+    }
+//    NSLog(@"%@",[dict allValues]);
+    return [dict allValues];
+}
+
+#pragma mark - 去重，不乱序,不排序
+- (NSArray *)numberSortByArray {
+    if (!self) {
+        return @[];
+    }
+    NSMutableArray *categoryArray = [[NSMutableArray alloc] init];
+    for (unsigned i = 0; i < [self count]; i++){
+        if ([categoryArray containsObject:[self objectAtIndex:i]] == NO){
+            [categoryArray addObject:[self objectAtIndex:i]];
+        }
+    }
+    return categoryArray;
+}
+
+#pragma mark - 去重，数字大小 排序
+/*
+ NSArray *arr = @[@111,@222,@111,@333];
+ 返回：@[@111,@222,@333];
+ */
+- (NSArray *)numberArrayDeduplBySortType:(SequenceType)sortType {
+    NSArray *sortArray = [self numberSortByArray];
+    sortArray = [self numberArrayBySortType:sortType];
+    
+    return sortArray;
+}
+
+#pragma mark - 不去重，数字大小 排序
+- (NSArray *)numberArrayBySortType:(SequenceType)sortType {
+    NSArray *sortArray = self ? self :@[];
+    
+    sortArray = [sortArray sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        NSNumber *number1 = obj1;
+        NSNumber *number2 = obj2;
+        
+        if ([number1 integerValue] < [number2 integerValue]) {
+            
+            if (sortType == OrderedAscending) {
+                return NSOrderedAscending;
+            } else if (sortType == OrderedDescending){
+                return NSOrderedDescending;
+            }
+        } else if ([number1 integerValue] > [number2 integerValue]) {
+            
+            if (sortType == OrderedAscending) {
+                return NSOrderedDescending;
+            } else if (sortType == OrderedDescending){
+                return NSOrderedAscending;
+            }
+        }
+        return NSOrderedSame;
+        
+    }];
+    
+    return sortArray;
+}
+
+#pragma mark - 去重，字符从前往后一个一个对比 排序（字母数字混合）
+/*
+ NSArray *sortArray = @[@"A2",@"A1",@"c3",@"d4",@"b",@"d12"];
+ 
+ return  sortSetArray->( A1, A2, b, c3, d12, d4 )
+ */
+- (NSArray *)stringNumberArrayBySortType:(SequenceType)sortType {
+    if (!self) {
+        return @[];
+    }
+    NSSet *sortSet = [NSSet setWithArray:self];
+    if (sortType == OrderedSame) {
+        return [sortSet allObjects];
+    } else {
+        NSArray *sortDesc = @[[[NSSortDescriptor alloc] initWithKey:nil ascending:(sortType == OrderedAscending) ? YES : ((sortType == OrderedAscending) ? NO : YES)]];
+        NSArray *sortSetArray = [sortSet sortedArrayUsingDescriptors:sortDesc];
+        
+        return sortSetArray;
+    }
+}
+
+
 @end

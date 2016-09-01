@@ -10,4 +10,8 @@
 
 @interface NSDictionary (BOBs)
 
+- (NSArray *)keyArray;
+
+- (NSArray *)valuesArray;
+
 @end
