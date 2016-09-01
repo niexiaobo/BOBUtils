@@ -20,4 +20,13 @@
     }
 }
 
+#pragma mark - 同上
+- (void)setObjectSafe:(NSObject *)anObject forKey:(NSString*)aKey {
+    //如果不为空则添加
+    if ((anObject != nil) && ![anObject isEqual:[NSNull null]] && (aKey != nil) && ![aKey isEqual:[NSNull null]] && [aKey  isKindOfClass:[NSString class]]) {
+        
+        [self setObject:anObject forKey:aKey];
+        
+    }
+}
 @end

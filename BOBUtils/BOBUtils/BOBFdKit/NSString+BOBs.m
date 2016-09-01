@@ -252,16 +252,8 @@
 
 
 #pragma mark- 提取数字
-+(NSString *)findNumFromStr:(NSString *)Text_str
-{
-    //
-    //    if ([Text_str isEqualToString:@""]) {
-    //        return -1;
-    //    }
-    
-    
-    NSString *originalString =Text_str;
-    
+- (NSString *)findNumStr {
+    NSString *originalString = self ? self : @"";
     // Intermediate
     NSMutableString *numberString = [[NSMutableString alloc] init];
     NSString *tempStr;
@@ -281,15 +273,13 @@
         
         tempStr = @"";
     }
-    // Result.
-    //    int number = [numberString integerValue];
     
     return numberString;
 }
 #pragma mark- 提取数字和字母
-+(NSString *)findNumAndABC_Str:(NSString *)Text_str{
+- (NSString *)findNumAndABCStr {
     
-    NSString *originalString =Text_str;
+    NSString *originalString = self ? self : @"";
     
     // Intermediate
     NSMutableString *numberString = [[NSMutableString alloc] init];
@@ -310,18 +300,17 @@
         
         tempStr = @"";
     }
-    // Result.
-    //    int number = [numberString integerValue];
     
     return numberString;
     
 }
-+(BOOL)is_11_phone_num:(NSString*)phone_str{
-    
+
+- (BOOL)is_11_phone_num {
+    NSString *phone_str = self ? self : @"";
     if ([[phone_str not_null] isEqualToString:@""]) {
         return NO;
     }
-    NSString*phone=[NSString findNumFromStr:phone_str];
+    NSString *phone = [phone_str findNumStr];
     if ([[phone not_null] isEqualToString:@""]) {
         return NO;
     }
@@ -331,16 +320,15 @@
     if (![phone hasPrefix:@"1"]) {
         return NO;
     }
-    
-    
     return YES;
 }
+
 #pragma mark- 去掉所有空格
-+(NSString *)Remove_blank_Str:(NSString *)Text_str{
+- (NSString *)RemoveBlankStr {
+    NSString *Text_str = self ? self : @"";
     if ([[Text_str not_null] isEqualToString:@""]) {
         return @"";
     }
-    
     //去掉搜索中所有空格
     NSString *seachtext = [Text_str stringByReplacingOccurrencesOfString:@" " withString:@""];
     return seachtext;

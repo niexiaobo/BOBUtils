@@ -82,15 +82,15 @@
 #pragma mark- 判断字符串是否为空,为空返回 @""
 -(NSString *)not_null;
 #pragma mark- 提取数字
-+(NSString *)findNumFromStr:(NSString *)Text_str;
+- (NSString *)findNumStr;
 #pragma mark- 提取数字和字母
-+(NSString *)findNumAndABC_Str:(NSString *)Text_str;
+- (NSString *)findNumAndABCStr;
 
 #pragma mark- 11位手机号
-+(BOOL)is_11_phone_num:(NSString*)phone_str;
+- (BOOL)is_11_phone_num;
 
 #pragma mark- 去掉所有空格
-+(NSString *)Remove_blank_Str:(NSString *)Text_str;
+- (NSString *)RemoveBlankStr;
 
 #pragma mark- ChineseToPinyin 获取汉字拼音
 + (NSString *)chineseToPinyin:(NSString *)chinese withSpace:(BOOL)withSpace;
