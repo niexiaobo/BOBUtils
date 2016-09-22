@@ -9,6 +9,12 @@
 #import "NSArray+BOBs.h"
 
 @implementation NSArray (BOBs)
+
+//- (id)objectAtIndex:(NSUInteger)index {
+
+
+//////////////////////////////////////
+
 - (id)safeObjectAtIndex:(NSUInteger)index
 {
     if([self count] > 0) return [self objectAtIndex:index];

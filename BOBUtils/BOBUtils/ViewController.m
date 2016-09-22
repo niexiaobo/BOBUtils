@@ -36,6 +36,10 @@
     NSArray *sortSetArray = [set sortedArrayUsingDescriptors:sortDesc];
      NSLog(@"--sortSet-->%@<----<---",[sortSet allObjects]);
      NSLog(@"---sortSetArray->%@<----<---",sortSetArray);
+    
+    
+    [sortDesc objectAtIndex:100];
+    
 }
 
 - (void)didReceiveMemoryWarning {

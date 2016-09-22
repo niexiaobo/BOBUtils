@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <objc/runtime.h>
 typedef NS_ENUM(NSInteger, SequenceType)
 {
     OrderedAscending = 0,
